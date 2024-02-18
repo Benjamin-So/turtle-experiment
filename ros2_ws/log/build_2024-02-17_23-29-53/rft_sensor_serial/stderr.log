@@ -1,0 +1,19 @@
+[01m[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:[m[K In member function ‘[01m[Kvoid WrenchPublisher::publishWrench()[m[K’:
+[01m[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:125:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KforceX[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  125 |       float [01;35m[KforceX[m[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];
+      |             [01;35m[K^~~~~~[m[K
+[01m[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:126:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KforceY[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  126 |       float [01;35m[KforceY[m[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];
+      |             [01;35m[K^~~~~~[m[K
+[01m[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:127:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KforceZ[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  127 |       float [01;35m[KforceZ[m[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[2];
+      |             [01;35m[K^~~~~~[m[K
+[01m[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:128:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtorqueX[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  128 |       float [01;35m[KtorqueX[m[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[3];
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:129:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtorqueY[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  129 |       float [01;35m[KtorqueY[m[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[4];
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:130:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtorqueZ[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  130 |       float [01;35m[KtorqueZ[m[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[5];
+      |             [01;35m[K^~~~~~~[m[K

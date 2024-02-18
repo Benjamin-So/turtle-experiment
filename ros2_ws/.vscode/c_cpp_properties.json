@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/include/**",
+        "/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/include/**",
+        "/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/include/**",
+        "/home/turtle/ros2_ws/install/tutorial_interfaces/include/**",
+        "/home/turtle/ros2_ws/install/rft_interfaces/include/**",
+        "/home/turtle/ros2_ws/install/rft_com_library/include/**",
+        "/home/turtle/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/turtle/ros2_ws/install/dynamixel_sdk/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk/include/**",
+        "/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_examples/include/**",
+        "/home/turtle/turtle-experiment/ros2_ws/src/rft_com_library/include/**",
+        "/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/include/**",
+        "/home/turtle/turtle-experiment/ros2_ws/src/sensor_pub/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

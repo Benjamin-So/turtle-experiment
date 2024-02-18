@@ -1,0 +1,4 @@
+Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library -- -j8 -l8
+Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library -- -j8 -l8
+Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library
+Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library

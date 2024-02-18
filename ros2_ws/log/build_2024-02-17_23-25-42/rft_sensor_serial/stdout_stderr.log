@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target main[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable main[0m
+[100%] Built target main
+-- Install configuration: ""
+-- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib/rft_sensor_serial/main
+-- Set runtime path of "/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib/rft_sensor_serial/main" to ""
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/ament_index/resource_index/package_run_dependencies/rft_sensor_serial
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/ament_index/resource_index/parent_prefix_path/rft_sensor_serial
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/environment/ament_prefix_path.sh
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/environment/path.sh
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/environment/path.dsv
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/local_setup.bash
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/local_setup.sh
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/local_setup.zsh
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/local_setup.dsv
+-- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.dsv
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/ament_index/resource_index/packages/rft_sensor_serial
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/cmake/rft_sensor_serialConfig.cmake
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/cmake/rft_sensor_serialConfig-version.cmake
+-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.xml

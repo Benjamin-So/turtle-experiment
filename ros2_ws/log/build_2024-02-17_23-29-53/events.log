@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000190] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000230] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000262] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000353] (-) JobUnselected: {'identifier': 'rft_com_library'}
+[0.000372] (-) JobUnselected: {'identifier': 'rft_interfaces'}
+[0.000389] (-) JobUnselected: {'identifier': 'sensor_pub'}
+[0.000407] (rft_sensor_serial) JobQueued: {'identifier': 'rft_sensor_serial', 'dependencies': OrderedDict([('rft_com_library', '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library'), ('rft_interfaces', '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces')])}
+[0.000432] (rft_sensor_serial) JobStarted: {'identifier': 'rft_sensor_serial'}
+[0.051731] (rft_sensor_serial) JobProgress: {'identifier': 'rft_sensor_serial', 'progress': 'cmake'}
+[0.052224] (rft_sensor_serial) JobProgress: {'identifier': 'rft_sensor_serial', 'progress': 'build'}
+[0.052852] (rft_sensor_serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial', '--', '-j8', '-l8'], 'cwd': '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turtle'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/turtle'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/turtle/turtle-experiment'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2015'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'turtle'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'turtle'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/turtle/miniconda3/condabin:/home/turtle/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/turtle-computer:@/tmp/.ICE-unix/1783,unix/turtle-computer:/tmp/.ICE-unix/1783'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/69d9a9cc_ed3d_4565_988f_2f41c1db8d43'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3775'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/turtle/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/turtle/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble')]), 'shell': False}
+[0.089678] (rft_sensor_serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main\x1b[0m\n'}
+[0.099298] (-) TimerEvent: {}
+[0.104906] (rft_sensor_serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o\x1b[0m\n'}
+[0.199359] (-) TimerEvent: {}
+[0.299688] (-) TimerEvent: {}
+[0.399967] (-) TimerEvent: {}
+[0.500210] (-) TimerEvent: {}
+[0.600459] (-) TimerEvent: {}
+[0.700709] (-) TimerEvent: {}
+[0.801004] (-) TimerEvent: {}
+[0.901278] (-) TimerEvent: {}
+[1.001624] (-) TimerEvent: {}
+[1.101944] (-) TimerEvent: {}
+[1.202274] (-) TimerEvent: {}
+[1.302614] (-) TimerEvent: {}
+[1.402882] (-) TimerEvent: {}
+[1.503160] (-) TimerEvent: {}
+[1.603499] (-) TimerEvent: {}
+[1.703841] (-) TimerEvent: {}
+[1.804158] (-) TimerEvent: {}
+[1.904460] (-) TimerEvent: {}
+[2.004746] (-) TimerEvent: {}
+[2.105009] (-) TimerEvent: {}
+[2.205271] (-) TimerEvent: {}
+[2.305608] (-) TimerEvent: {}
+[2.405906] (-) TimerEvent: {}
+[2.506241] (-) TimerEvent: {}
+[2.606522] (-) TimerEvent: {}
+[2.705543] (rft_sensor_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid WrenchPublisher::publishWrench()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.705851] (rft_sensor_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:125:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KforceX\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.706027] (rft_sensor_serial) StderrLine: {'line': b'  125 |       float \x1b[01;35m\x1b[KforceX\x1b[m\x1b[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];\n'}
+[2.706187] (rft_sensor_serial) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.706343] (rft_sensor_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:126:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KforceY\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.706520] (rft_sensor_serial) StderrLine: {'line': b'  126 |       float \x1b[01;35m\x1b[KforceY\x1b[m\x1b[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];\n'}
+[2.706669] (-) TimerEvent: {}
+[2.706832] (rft_sensor_serial) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.706983] (rft_sensor_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:127:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KforceZ\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.707118] (rft_sensor_serial) StderrLine: {'line': b'  127 |       float \x1b[01;35m\x1b[KforceZ\x1b[m\x1b[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[2];\n'}
+[2.707210] (rft_sensor_serial) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.707317] (rft_sensor_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:128:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KtorqueX\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.707451] (rft_sensor_serial) StderrLine: {'line': b'  128 |       float \x1b[01;35m\x1b[KtorqueX\x1b[m\x1b[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[3];\n'}
+[2.707536] (rft_sensor_serial) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.707613] (rft_sensor_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:129:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KtorqueY\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.707695] (rft_sensor_serial) StderrLine: {'line': b'  129 |       float \x1b[01;35m\x1b[KtorqueY\x1b[m\x1b[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[4];\n'}
+[2.707773] (rft_sensor_serial) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.707852] (rft_sensor_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial/src/main.cpp:130:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KtorqueZ\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.707947] (rft_sensor_serial) StderrLine: {'line': b'  130 |       float \x1b[01;35m\x1b[KtorqueZ\x1b[m\x1b[K = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[5];\n'}
+[2.708027] (rft_sensor_serial) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.806762] (-) TimerEvent: {}
+[2.907057] (-) TimerEvent: {}
+[3.007319] (-) TimerEvent: {}
+[3.107612] (-) TimerEvent: {}
+[3.207898] (-) TimerEvent: {}
+[3.308188] (-) TimerEvent: {}
+[3.408468] (-) TimerEvent: {}
+[3.508779] (-) TimerEvent: {}
+[3.609054] (-) TimerEvent: {}
+[3.709338] (-) TimerEvent: {}
+[3.809584] (-) TimerEvent: {}
+[3.909855] (-) TimerEvent: {}
+[4.010097] (-) TimerEvent: {}
+[4.110346] (-) TimerEvent: {}
+[4.210589] (-) TimerEvent: {}
+[4.310855] (-) TimerEvent: {}
+[4.411099] (-) TimerEvent: {}
+[4.511350] (-) TimerEvent: {}
+[4.611584] (-) TimerEvent: {}
+[4.711830] (-) TimerEvent: {}
+[4.812082] (-) TimerEvent: {}
+[4.912319] (-) TimerEvent: {}
+[5.012568] (-) TimerEvent: {}
+[5.112851] (-) TimerEvent: {}
+[5.175809] (rft_sensor_serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable main\x1b[0m\n'}
+[5.212992] (-) TimerEvent: {}
+[5.313265] (-) TimerEvent: {}
+[5.390228] (rft_sensor_serial) StdoutLine: {'line': b'[100%] Built target main\n'}
+[5.400873] (rft_sensor_serial) CommandEnded: {'returncode': 0}
+[5.413357] (-) TimerEvent: {}
+[5.421259] (rft_sensor_serial) JobProgress: {'identifier': 'rft_sensor_serial', 'progress': 'install'}
+[5.428756] (rft_sensor_serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial'], 'cwd': '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turtle'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/turtle'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/turtle/turtle-experiment'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2015'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'turtle'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'turtle'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/turtle/miniconda3/condabin:/home/turtle/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/turtle-computer:@/tmp/.ICE-unix/1783,unix/turtle-computer:/tmp/.ICE-unix/1783'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/69d9a9cc_ed3d_4565_988f_2f41c1db8d43'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3775'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/turtle/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/turtle/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble')]), 'shell': False}
+[5.436484] (rft_sensor_serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.436711] (rft_sensor_serial) StdoutLine: {'line': b'-- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib/rft_sensor_serial/main\n'}
+[5.441311] (rft_sensor_serial) StdoutLine: {'line': b'-- Set runtime path of "/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib/rft_sensor_serial/main" to ""\n'}
+[5.441664] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/ament_index/resource_index/package_run_dependencies/rft_sensor_serial\n'}
+[5.441977] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/ament_index/resource_index/parent_prefix_path/rft_sensor_serial\n'}
+[5.442109] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/environment/ament_prefix_path.sh\n'}
+[5.442221] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/environment/ament_prefix_path.dsv\n'}
+[5.442318] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/environment/path.sh\n'}
+[5.442413] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/environment/path.dsv\n'}
+[5.442504] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/local_setup.bash\n'}
+[5.442618] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/local_setup.sh\n'}
+[5.443910] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/local_setup.zsh\n'}
+[5.444464] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/local_setup.dsv\n'}
+[5.445064] (rft_sensor_serial) StdoutLine: {'line': b'-- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.dsv\n'}
+[5.445221] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/ament_index/resource_index/packages/rft_sensor_serial\n'}
+[5.445343] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/cmake/rft_sensor_serialConfig.cmake\n'}
+[5.445476] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/cmake/rft_sensor_serialConfig-version.cmake\n'}
+[5.446037] (rft_sensor_serial) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.xml\n'}
+[5.446670] (rft_sensor_serial) CommandEnded: {'returncode': 0}
+[5.513430] (-) TimerEvent: {}
+[5.574389] (rft_sensor_serial) JobEnded: {'identifier': 'rft_sensor_serial', 'rc': 0}
+[5.574705] (-) EventReactorShutdown: {}

@@ -109,9 +109,9 @@ private:
     if (true){
       std::lock_guard<std::mutex> lock(g_com_port_mutex);
       isSensorOk = RFT_SENSOR.readWorker();
-      RCLCPP_WARN(this->get_logger(), "isSensorOk %s", isSensorOk ? "true": "false");
-      RCLCPP_INFO(this->get_logger(), "m_bConnected: %s", RFT_SENSOR.isConnected() ? "true" : "false");
-      RCLCPP_INFO(this->get_logger(), "m_bConnected: %i", RFT_SENSOR.m_nCurrMode);
+      // RCLCPP_WARN(this->get_logger(), "isSensorOk %s", isSensorOk ? "true": "false");
+      // RCLCPP_INFO(this->get_logger(), "m_bConnected: %s", RFT_SENSOR.isConnected() ? "true" : "false");
+      // RCLCPP_INFO(this->get_logger(), "m_CurrMode: %i", RFT_SENSOR.m_nCurrMode);
     }
 
     if( (RFT_SENSOR.m_nCurrMode == CMD_FT_CONT) && isSensorOk ){
@@ -122,13 +122,6 @@ private:
       wrench_msg->header.stamp = this->now();
       wrench_msg->header.frame_id = "base_link"; // example frame_id
 
-      float forceX = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];
-      float forceY = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];
-      float forceZ = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[2];
-      float torqueX = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[3];
-      float torqueY = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[4];
-      float torqueZ = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[5];
-
       wrench_msg->wrench.force.x = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];
       wrench_msg->wrench.force.y = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];
       wrench_msg->wrench.force.z = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[2];
@@ -136,7 +129,14 @@ private:
       wrench_msg->wrench.torque.y = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[4];
       wrench_msg->wrench.torque.z = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[5];
 
-      RCLCPP_INFO(this->get_logger(), "ForceX: %f ForceY: %f ForceZ: %f TorqueX: %f TorqueY: %f TorqueZ: %f ", forceX, forceY, forceZ, torqueX, torqueY, torqueZ);
+      // If you want to see the values logged on the console. May slow down pubbing data
+      // float forceX = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];
+      // float forceY = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[1];
+      // float forceZ = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[2];
+      // float torqueX = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[3];
+      // float torqueY = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[4];
+      // float torqueZ = RFT_SENSOR.m_RFT_IF_PACKET.m_rcvdForce[5];
+      // RCLCPP_INFO(this->get_logger(), "ForceX: %f ForceY: %f ForceZ: %f TorqueX: %f TorqueY: %f TorqueZ: %f ", forceX, forceY, forceZ, torqueX, torqueY, torqueZ);
 
       // Publish the message
       pub_->publish(std::move(wrench_msg));
@@ -165,7 +165,7 @@ int main(int argc, char** argv)
 		return 0;
 	}
   else{
-    RCLCPP_ERROR(node->get_logger(), "COM Port Opened Successfully");
+    RCLCPP_INFO(node->get_logger(), "COM Port Opened Successfully");
   }
 
 	// initialize force/torque divider
@@ -265,7 +265,7 @@ bool rft_operation_service(const std::shared_ptr<rft_interfaces::srv::RftOperati
 	std::lock_guard<std::mutex> lock(g_com_port_mutex);
   commandSend = rft_send_command(request, node);
 	
-  RCLCPP_INFO(node->get_logger(),"Recieved: %d from rft_send_command", commandSend);
+  // RCLCPP_INFO(node->get_logger(),"Recieved: %d from rft_send_command", commandSend);
 	if( commandSend == RFT_SERVICE_OK )
 	{
 		RCLCPP_INFO(node->get_logger(),"RESPONSE WAIT");
@@ -286,7 +286,7 @@ bool rft_operation_service(const std::shared_ptr<rft_interfaces::srv::RftOperati
 uint8_t rft_send_command(const std::shared_ptr<rft_interfaces::srv::RftOperationRequest::Request> request,
                          const rclcpp::Node::SharedPtr& node)
 {
-    RCLCPP_INFO(node->get_logger(),"From within Send Command: %d, %d, %d, %d", request->op_type, request->param1, request->param2, request->param3);
+    // RCLCPP_INFO(node->get_logger(),"From within Send Command: %d, %d, %d, %d", request->op_type, request->param1, request->param2, request->param3);
     uint8_t result = RFT_SERVICE_OK;
     switch(request->op_type)
     {
@@ -391,7 +391,6 @@ uint8_t rft_send_command(const std::shared_ptr<rft_interfaces::srv::RftOperation
 uint8_t rft_response_wait(uint8_t op_type, const rclcpp::Node::SharedPtr& node)
 {
 	int result = RFT_SERVICE_OK;
-  RCLCPP_INFO(node->get_logger(),"rft_response_wait called successfully: recieved op_type: %d", op_type);
 
 	int waitTimeOut = 0;
 	
@@ -425,8 +424,6 @@ uint8_t rft_response_wait(uint8_t op_type, const rclcpp::Node::SharedPtr& node)
 */
 uint8_t rft_response_display(uint8_t op_type, const rclcpp::Node::SharedPtr& node)
 {
-  RCLCPP_INFO(node->get_logger(),"NOW WERE COOKING WITH GAS ");
-
 	uint8_t result = RFT_SERVICE_OK;
 	switch ( op_type )
 	{
