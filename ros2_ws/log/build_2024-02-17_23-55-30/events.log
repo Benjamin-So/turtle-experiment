@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000310] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000457] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000504] (-) JobUnselected: {'identifier': 'rft_com_library'}
+[0.000543] (-) JobUnselected: {'identifier': 'rft_interfaces'}
+[0.000599] (-) JobUnselected: {'identifier': 'rft_sensor_serial'}
+[0.000741] (-) JobUnselected: {'identifier': 'sensor_pub'}
+[0.000794] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk'), ('dynamixel_sdk_custom_interfaces', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces')])}
+[0.000856] (dynamixel_sdk_examples) JobStarted: {'identifier': 'dynamixel_sdk_examples'}
+[0.067213] (dynamixel_sdk_examples) JobProgress: {'identifier': 'dynamixel_sdk_examples', 'progress': 'cmake'}
+[0.068505] (dynamixel_sdk_examples) JobProgress: {'identifier': 'dynamixel_sdk_examples', 'progress': 'build'}
+[0.068675] (dynamixel_sdk_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples', '--', '-j8', '-l8'], 'cwd': '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turtle'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/turtle'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/turtle/turtle-experiment'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2015'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'turtle'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'turtle'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/turtle/miniconda3/condabin:/home/turtle/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/turtle-computer:@/tmp/.ICE-unix/1783,unix/turtle-computer:/tmp/.ICE-unix/1783'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/69d9a9cc_ed3d_4565_988f_2f41c1db8d43'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3775'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/turtle/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/turtle/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble')]), 'shell': False}
+[0.099167] (-) TimerEvent: {}
+[0.113848] (dynamixel_sdk_examples) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target read_write_node\x1b[0m\n'}
+[0.131721] (dynamixel_sdk_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o\x1b[0m\n'}
+[0.199301] (-) TimerEvent: {}
+[0.299609] (-) TimerEvent: {}
+[0.399918] (-) TimerEvent: {}
+[0.500204] (-) TimerEvent: {}
+[0.600488] (-) TimerEvent: {}
+[0.700788] (-) TimerEvent: {}
+[0.801031] (-) TimerEvent: {}
+[0.901323] (-) TimerEvent: {}
+[1.001671] (-) TimerEvent: {}
+[1.102070] (-) TimerEvent: {}
+[1.202356] (-) TimerEvent: {}
+[1.302639] (-) TimerEvent: {}
+[1.402908] (-) TimerEvent: {}
+[1.503394] (-) TimerEvent: {}
+[1.603676] (-) TimerEvent: {}
+[1.703952] (-) TimerEvent: {}
+[1.804228] (-) TimerEvent: {}
+[1.904504] (-) TimerEvent: {}
+[2.004749] (-) TimerEvent: {}
+[2.105003] (-) TimerEvent: {}
+[2.205262] (-) TimerEvent: {}
+[2.305626] (-) TimerEvent: {}
+[2.405901] (-) TimerEvent: {}
+[2.506237] (-) TimerEvent: {}
+[2.606556] (-) TimerEvent: {}
+[2.706854] (-) TimerEvent: {}
+[2.807165] (-) TimerEvent: {}
+[2.907507] (-) TimerEvent: {}
+[3.007938] (-) TimerEvent: {}
+[3.108312] (-) TimerEvent: {}
+[3.208589] (-) TimerEvent: {}
+[3.308856] (-) TimerEvent: {}
+[3.409165] (-) TimerEvent: {}
+[3.509495] (-) TimerEvent: {}
+[3.609847] (-) TimerEvent: {}
+[3.710249] (-) TimerEvent: {}
+[3.810617] (-) TimerEvent: {}
+[3.910935] (-) TimerEvent: {}
+[4.011270] (-) TimerEvent: {}
+[4.111639] (-) TimerEvent: {}
+[4.211937] (-) TimerEvent: {}
+[4.312270] (-) TimerEvent: {}
+[4.412514] (-) TimerEvent: {}
+[4.512833] (-) TimerEvent: {}
+[4.613101] (-) TimerEvent: {}
+[4.713453] (-) TimerEvent: {}
+[4.813790] (-) TimerEvent: {}
+[4.914092] (-) TimerEvent: {}
+[5.014369] (-) TimerEvent: {}
+[5.114632] (-) TimerEvent: {}
+[5.214914] (-) TimerEvent: {}
+[5.315196] (-) TimerEvent: {}
+[5.415428] (-) TimerEvent: {}
+[5.515690] (-) TimerEvent: {}
+[5.615959] (-) TimerEvent: {}
+[5.716302] (-) TimerEvent: {}
+[5.816576] (-) TimerEvent: {}
+[5.916889] (-) TimerEvent: {}
+[6.017122] (-) TimerEvent: {}
+[6.117334] (-) TimerEvent: {}
+[6.217549] (-) TimerEvent: {}
+[6.317801] (-) TimerEvent: {}
+[6.418053] (-) TimerEvent: {}
+[6.518311] (-) TimerEvent: {}
+[6.618569] (-) TimerEvent: {}
+[6.718814] (-) TimerEvent: {}
+[6.819062] (-) TimerEvent: {}
+[6.919279] (-) TimerEvent: {}
+[7.019548] (-) TimerEvent: {}
+[7.119812] (-) TimerEvent: {}
+[7.220088] (-) TimerEvent: {}
+[7.320357] (-) TimerEvent: {}
+[7.420716] (-) TimerEvent: {}
+[7.521152] (-) TimerEvent: {}
+[7.621459] (-) TimerEvent: {}
+[7.721707] (-) TimerEvent: {}
+[7.821942] (-) TimerEvent: {}
+[7.922228] (-) TimerEvent: {}
+[8.022483] (-) TimerEvent: {}
+[8.122833] (-) TimerEvent: {}
+[8.223166] (-) TimerEvent: {}
+[8.323480] (-) TimerEvent: {}
+[8.423726] (-) TimerEvent: {}
+[8.524022] (-) TimerEvent: {}
+[8.624274] (-) TimerEvent: {}
+[8.724555] (-) TimerEvent: {}
+[8.824826] (-) TimerEvent: {}
+[8.925119] (-) TimerEvent: {}
+[8.988978] (dynamixel_sdk_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable read_write_node\x1b[0m\n'}
+[9.025220] (-) TimerEvent: {}
+[9.125567] (-) TimerEvent: {}
+[9.225885] (-) TimerEvent: {}
+[9.326190] (-) TimerEvent: {}
+[9.426504] (-) TimerEvent: {}
+[9.436828] (dynamixel_sdk_examples) StdoutLine: {'line': b'[100%] Built target read_write_node\n'}
+[9.449054] (dynamixel_sdk_examples) CommandEnded: {'returncode': 0}
+[9.474777] (dynamixel_sdk_examples) JobProgress: {'identifier': 'dynamixel_sdk_examples', 'progress': 'install'}
+[9.483849] (dynamixel_sdk_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples'], 'cwd': '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'turtle'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/turtle'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/turtle/turtle-experiment'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2015'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'turtle'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'turtle'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/turtle/miniconda3/condabin:/home/turtle/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/turtle-computer:@/tmp/.ICE-unix/1783,unix/turtle-computer:/tmp/.ICE-unix/1783'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/69d9a9cc_ed3d_4565_988f_2f41c1db8d43'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3775'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/turtle/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/turtle/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble')]), 'shell': False}
+[9.491530] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.491815] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node\n'}
+[9.497532] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""\n'}
+[9.497800] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples\n'}
+[9.497917] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples\n'}
+[9.497994] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh\n'}
+[9.498145] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv\n'}
+[9.498213] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh\n'}
+[9.498278] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv\n'}
+[9.498351] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash\n'}
+[9.498416] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh\n'}
+[9.498485] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh\n'}
+[9.498549] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv\n'}
+[9.498611] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv\n'}
+[9.498674] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples\n'}
+[9.498737] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake\n'}
+[9.498800] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake\n'}
+[9.498862] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Up-to-date: /home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml\n'}
+[9.499708] (dynamixel_sdk_examples) CommandEnded: {'returncode': 0}
+[9.526581] (-) TimerEvent: {}
+[9.627613] (-) TimerEvent: {}
+[9.647536] (dynamixel_sdk_examples) JobEnded: {'identifier': 'dynamixel_sdk_examples', 'rc': 0}
+[9.648129] (-) EventReactorShutdown: {}
