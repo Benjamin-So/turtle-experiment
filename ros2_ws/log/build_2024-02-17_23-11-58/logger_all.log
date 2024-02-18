@@ -1,0 +1,562 @@
+[0.799s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.799s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb97f7d0ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb97f754c40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb97f754c40>>)
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.836s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/turtle/turtle-experiment/ros2_ws'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'ignore'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'colcon_pkg'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extensions ['colcon_meta']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'colcon_meta'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extensions ['ros']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk) by extension 'ros'
+[0.849s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.850s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_examples) by extension 'ignore'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_examples) by extensions ['ros']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_sdk_examples) by extension 'ros'
+[0.851s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_com_library) by extensions ['ignore', 'ignore_ament_install']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_com_library) by extension 'ignore'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_com_library) by extension 'ignore_ament_install'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_com_library) by extensions ['colcon_pkg']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_com_library) by extension 'colcon_pkg'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_com_library) by extensions ['colcon_meta']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_com_library) by extension 'colcon_meta'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_com_library) by extensions ['ros']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_com_library) by extension 'ros'
+[0.852s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rft_com_library' with type 'ros.ament_cmake' and name 'rft_com_library'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_interfaces) by extension 'ignore'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_interfaces) by extension 'ignore_ament_install'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_interfaces) by extensions ['colcon_pkg']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_interfaces) by extension 'colcon_pkg'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_interfaces) by extensions ['colcon_meta']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_interfaces) by extension 'colcon_meta'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_interfaces) by extensions ['ros']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_interfaces) by extension 'ros'
+[0.852s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rft_interfaces' with type 'ros.ament_cmake' and name 'rft_interfaces'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_sensor_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_sensor_serial) by extension 'ignore'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_sensor_serial) by extension 'ignore_ament_install'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_sensor_serial) by extensions ['colcon_pkg']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_sensor_serial) by extension 'colcon_pkg'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_sensor_serial) by extensions ['colcon_meta']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_sensor_serial) by extension 'colcon_meta'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_sensor_serial) by extensions ['ros']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/rft_sensor_serial) by extension 'ros'
+[0.853s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rft_sensor_serial' with type 'ros.ament_cmake' and name 'rft_sensor_serial'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_pub) by extension 'ignore'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_pub) by extension 'ignore_ament_install'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_pub) by extensions ['colcon_pkg']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_pub) by extension 'colcon_pkg'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_pub) by extensions ['colcon_meta']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_pub) by extension 'colcon_meta'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_pub) by extensions ['ros']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_pub) by extension 'ros'
+[0.854s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_pub' with type 'ros.ament_cmake' and name 'sensor_pub'
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.855s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.928s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.928s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.952s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.953s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.026s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.038s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'rft_com_library' build argument 'cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'rft_com_library' build argument 'cmake_target' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'rft_com_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'rft_com_library' build argument 'cmake_clean_cache' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'rft_com_library' build argument 'cmake_clean_first' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'rft_com_library' build argument 'cmake_force_configure' from command line to 'False'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'rft_com_library' build argument 'ament_cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'rft_com_library' build argument 'catkin_cmake_args' from command line to 'None'
+[1.049s] Level 5:colcon.colcon_core.verb:set package 'rft_com_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.050s] DEBUG:colcon.colcon_core.verb:Building package 'rft_com_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library', 'merge_install': False, 'path': '/home/turtle/turtle-experiment/ros2_ws/src/rft_com_library', 'symlink_install': False, 'test_result_base': None}
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'rft_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'rft_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'rft_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'rft_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'rft_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'rft_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'rft_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'rft_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'rft_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.061s] DEBUG:colcon.colcon_core.verb:Building package 'rft_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces', 'merge_install': False, 'path': '/home/turtle/turtle-experiment/ros2_ws/src/rft_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.073s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.073s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_examples', 'symlink_install': False, 'test_result_base': None}
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'rft_sensor_serial' build argument 'cmake_args' from command line to 'None'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'rft_sensor_serial' build argument 'cmake_target' from command line to 'None'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'rft_sensor_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'rft_sensor_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'rft_sensor_serial' build argument 'cmake_clean_first' from command line to 'False'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'rft_sensor_serial' build argument 'cmake_force_configure' from command line to 'False'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'rft_sensor_serial' build argument 'ament_cmake_args' from command line to 'None'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'rft_sensor_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.086s] Level 5:colcon.colcon_core.verb:set package 'rft_sensor_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.086s] DEBUG:colcon.colcon_core.verb:Building package 'rft_sensor_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial', 'merge_install': False, 'path': '/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial', 'symlink_install': False, 'test_result_base': None}
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'sensor_pub' build argument 'cmake_args' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'sensor_pub' build argument 'cmake_target' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'sensor_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'sensor_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'sensor_pub' build argument 'cmake_clean_first' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'sensor_pub' build argument 'cmake_force_configure' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'sensor_pub' build argument 'ament_cmake_args' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'sensor_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'sensor_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.098s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turtle/turtle-experiment/ros2_ws/build/sensor_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub', 'merge_install': False, 'path': '/home/turtle/turtle-experiment/ros2_ws/src/sensor_pub', 'symlink_install': False, 'test_result_base': None}
+[1.109s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.121s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turtle/turtle-experiment/ros2_ws/src/rft_com_library' with build type 'ament_cmake'
+[1.122s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turtle/turtle-experiment/ros2_ws/src/rft_com_library'
+[1.135s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.161s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turtle/turtle-experiment/ros2_ws/src/rft_interfaces' with build type 'ament_cmake'
+[1.161s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turtle/turtle-experiment/ros2_ws/src/rft_interfaces'
+[1.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.199s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk' with build type 'ament_cmake'
+[1.199s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk'
+[1.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[1.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_custom_interfaces'
+[1.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/rft_com_library -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library
+[1.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/rft_interfaces -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces
+[1.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk
+[1.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces
+[1.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk
+[1.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/rft_com_library -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library
+[1.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library -- -j8 -l8
+[2.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library -- -j8 -l8
+[2.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library
+[2.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rft_com_library)
+[2.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library' for CMake module files
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library' for CMake config files
+[2.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('rft_com_library', 'cmake_prefix_path')
+[2.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/hook/cmake_prefix_path.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/hook/cmake_prefix_path.dsv'
+[2.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/hook/cmake_prefix_path.sh'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/bin'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib/pkgconfig/rft_com_library.pc'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib/python3.10/site-packages'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/bin'
+[2.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.ps1'
+[2.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.dsv'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.sh'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.bash'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.zsh'
+[2.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/colcon-core/packages/rft_com_library)
+[2.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rft_com_library)
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library' for CMake module files
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library' for CMake config files
+[2.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('rft_com_library', 'cmake_prefix_path')
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/hook/cmake_prefix_path.ps1'
+[2.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/hook/cmake_prefix_path.dsv'
+[2.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/hook/cmake_prefix_path.sh'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/bin'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib/pkgconfig/rft_com_library.pc'
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib/python3.10/site-packages'
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/bin'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.ps1'
+[2.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.dsv'
+[2.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.sh'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.bash'
+[2.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.zsh'
+[2.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/colcon-core/packages/rft_com_library)
+[2.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[2.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk
+[2.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk
+[2.881s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk' for CMake module files
+[2.881s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk' for CMake config files
+[2.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[2.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[2.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[2.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[2.897s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib'
+[2.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[2.912s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/bin'
+[2.912s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[2.912s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[2.912s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/bin'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[2.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[2.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[2.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[2.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[2.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[2.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/rft_interfaces -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces
+[2.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces -- -j8 -l8
+[2.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.991s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk' for CMake module files
+[2.991s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk' for CMake config files
+[2.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[3.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[3.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[3.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[3.007s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib'
+[3.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[3.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[3.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[3.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/bin'
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/bin'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[3.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[3.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces
+[3.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[5.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces -- -j8 -l8
+[5.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces
+[5.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rft_interfaces)
+[5.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_interfaces
+[5.999s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces' for CMake module files
+[5.999s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces' for CMake config files
+[5.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('rft_interfaces', 'cmake_prefix_path')
+[6.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/cmake_prefix_path.ps1'
+[6.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/cmake_prefix_path.dsv'
+[6.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/cmake_prefix_path.sh'
+[6.018s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib'
+[6.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('rft_interfaces', 'ld_library_path_lib')
+[6.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/ld_library_path_lib.ps1'
+[6.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/ld_library_path_lib.dsv'
+[6.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/ld_library_path_lib.sh'
+[6.033s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/bin'
+[6.033s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib/pkgconfig/rft_interfaces.pc'
+[6.033s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib/python3.10/site-packages'
+[6.033s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/bin'
+[6.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.ps1'
+[6.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.dsv'
+[6.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.sh'
+[6.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.bash'
+[6.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.zsh'
+[6.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/colcon-core/packages/rft_interfaces)
+[6.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rft_interfaces)
+[6.123s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces' for CMake module files
+[6.123s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces' for CMake config files
+[6.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('rft_interfaces', 'cmake_prefix_path')
+[6.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/cmake_prefix_path.ps1'
+[6.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/cmake_prefix_path.dsv'
+[6.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/cmake_prefix_path.sh'
+[6.140s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib'
+[6.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('rft_interfaces', 'ld_library_path_lib')
+[6.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/ld_library_path_lib.ps1'
+[6.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/ld_library_path_lib.dsv'
+[6.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/hook/ld_library_path_lib.sh'
+[6.154s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/bin'
+[6.154s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib/pkgconfig/rft_interfaces.pc'
+[6.155s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib/python3.10/site-packages'
+[6.155s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/bin'
+[6.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.ps1'
+[6.170s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.dsv'
+[6.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.sh'
+[6.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.bash'
+[6.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/rft_interfaces/package.zsh'
+[6.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/share/colcon-core/packages/rft_interfaces)
+[6.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial' with build type 'ament_cmake'
+[6.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial'
+[6.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turtle/turtle-experiment/ros2_ws/src/sensor_pub' with build type 'ament_cmake'
+[6.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turtle/turtle-experiment/ros2_ws/src/sensor_pub'
+[6.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial
+[6.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/sensor_pub': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/sensor_pub -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub
+[6.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[6.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces
+[6.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[6.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_custom_interfaces
+[6.488s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[6.489s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[6.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[6.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[6.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[6.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[6.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[6.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[6.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[6.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[6.519s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[6.519s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[6.519s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[6.519s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[6.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[6.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[6.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[6.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[6.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[6.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[6.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[6.617s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[6.618s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[6.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[6.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[6.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[6.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[6.634s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[6.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[6.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[6.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[6.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[6.649s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[6.649s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[6.649s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[6.650s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[6.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[6.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[6.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[6.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[6.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[6.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[6.666s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_examples' with build type 'ament_cmake'
+[6.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_examples'
+[6.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples
+[7.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial' returned '0': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/rft_sensor_serial -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial
+[7.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial -- -j8 -l8
+[7.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/sensor_pub' returned '0': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/sensor_pub -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub
+[7.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/sensor_pub': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/sensor_pub -- -j8 -l8
+[8.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples
+[8.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[13.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial' returned '0': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial -- -j8 -l8
+[13.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial
+[13.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rft_sensor_serial)
+[13.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial' returned '0': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_sensor_serial
+[13.108s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial' for CMake module files
+[13.108s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial' for CMake config files
+[13.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('rft_sensor_serial', 'cmake_prefix_path')
+[13.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/hook/cmake_prefix_path.ps1'
+[13.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/hook/cmake_prefix_path.dsv'
+[13.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/hook/cmake_prefix_path.sh'
+[13.124s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib'
+[13.124s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/bin'
+[13.124s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib/pkgconfig/rft_sensor_serial.pc'
+[13.124s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib/python3.10/site-packages'
+[13.124s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/bin'
+[13.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.ps1'
+[13.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.dsv'
+[13.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.sh'
+[13.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.bash'
+[13.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.zsh'
+[13.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/colcon-core/packages/rft_sensor_serial)
+[13.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rft_sensor_serial)
+[13.186s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial' for CMake module files
+[13.187s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial' for CMake config files
+[13.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('rft_sensor_serial', 'cmake_prefix_path')
+[13.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/hook/cmake_prefix_path.ps1'
+[13.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/hook/cmake_prefix_path.dsv'
+[13.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/hook/cmake_prefix_path.sh'
+[13.204s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib'
+[13.204s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/bin'
+[13.204s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib/pkgconfig/rft_sensor_serial.pc'
+[13.204s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/lib/python3.10/site-packages'
+[13.204s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/bin'
+[13.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.ps1'
+[13.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.dsv'
+[13.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.sh'
+[13.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.bash'
+[13.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/rft_sensor_serial/package.zsh'
+[13.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/rft_sensor_serial/share/colcon-core/packages/rft_sensor_serial)
+[15.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/sensor_pub' returned '0': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/sensor_pub -- -j8 -l8
+[15.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/sensor_pub': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/sensor_pub
+[15.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_pub)
+[15.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/sensor_pub' returned '0': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/rft_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/sensor_pub
+[15.908s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub' for CMake module files
+[15.909s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub' for CMake config files
+[15.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_pub', 'cmake_prefix_path')
+[15.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/hook/cmake_prefix_path.ps1'
+[15.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/hook/cmake_prefix_path.dsv'
+[15.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/hook/cmake_prefix_path.sh'
+[15.923s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/lib'
+[15.923s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/bin'
+[15.923s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/lib/pkgconfig/sensor_pub.pc'
+[15.924s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/lib/python3.10/site-packages'
+[15.924s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/bin'
+[15.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.ps1'
+[15.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.dsv'
+[15.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.sh'
+[15.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.bash'
+[15.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.zsh'
+[15.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/colcon-core/packages/sensor_pub)
+[15.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_pub)
+[15.979s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub' for CMake module files
+[15.980s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub' for CMake config files
+[15.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_pub', 'cmake_prefix_path')
+[15.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/hook/cmake_prefix_path.ps1'
+[15.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/hook/cmake_prefix_path.dsv'
+[15.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/hook/cmake_prefix_path.sh'
+[15.993s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/lib'
+[15.993s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/bin'
+[15.993s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/lib/pkgconfig/sensor_pub.pc'
+[15.993s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/lib/python3.10/site-packages'
+[15.994s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/bin'
+[16.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.ps1'
+[16.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.dsv'
+[16.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.sh'
+[16.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.bash'
+[16.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.zsh'
+[16.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/colcon-core/packages/sensor_pub)
+[16.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[16.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples
+[16.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[16.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/dynamixel_sdk_examples
+[16.783s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples' for CMake module files
+[16.783s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples' for CMake config files
+[16.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[16.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[16.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[16.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[16.801s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/lib'
+[16.801s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/bin'
+[16.801s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[16.801s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[16.802s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/bin'
+[16.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[16.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[16.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[16.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[16.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[16.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[16.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[16.862s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples' for CMake module files
+[16.862s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples' for CMake config files
+[16.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[16.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[16.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[16.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[16.875s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/lib'
+[16.875s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/bin'
+[16.875s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[16.875s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[16.876s] Level 1:colcon.colcon_core.environment:checking '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/bin'
+[16.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[16.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[16.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[16.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[16.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[16.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtle/turtle-experiment/ros2_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[16.889s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.890s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.890s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.890s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.906s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.906s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.906s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.916s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.929s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turtle/turtle-experiment/ros2_ws/install/local_setup.ps1'
+[16.930s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/turtle/turtle-experiment/ros2_ws/install/_local_setup_util_ps1.py'
+[16.931s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turtle/turtle-experiment/ros2_ws/install/setup.ps1'
+[16.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turtle/turtle-experiment/ros2_ws/install/local_setup.sh'
+[16.944s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/turtle/turtle-experiment/ros2_ws/install/_local_setup_util_sh.py'
+[16.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turtle/turtle-experiment/ros2_ws/install/setup.sh'
+[16.957s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turtle/turtle-experiment/ros2_ws/install/local_setup.bash'
+[16.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turtle/turtle-experiment/ros2_ws/install/setup.bash'
+[16.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turtle/turtle-experiment/ros2_ws/install/local_setup.zsh'
+[16.970s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turtle/turtle-experiment/ros2_ws/install/setup.zsh'

@@ -1,0 +1,6 @@
+{
+  "package_name": "rft_interfaces",
+  "non_idl_tuples": [
+    "/home/turtle/turtle-experiment/ros2_ws/src/rft_interfaces:srv/RftOperationRequest.srv"
+  ]
+}

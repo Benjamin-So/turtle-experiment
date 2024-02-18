@@ -1,0 +1,17 @@
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/lib/sensor_pub/talker
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/lib/sensor_pub/listener
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/ament_index/resource_index/package_run_dependencies/sensor_pub
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/ament_index/resource_index/parent_prefix_path/sensor_pub
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/environment/ament_prefix_path.sh
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/environment/ament_prefix_path.dsv
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/environment/path.sh
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/environment/path.dsv
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/local_setup.bash
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/local_setup.sh
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/local_setup.zsh
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/local_setup.dsv
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.dsv
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/ament_index/resource_index/packages/sensor_pub
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/cmake/sensor_pubConfig.cmake
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/cmake/sensor_pubConfig-version.cmake
+/home/turtle/turtle-experiment/ros2_ws/install/sensor_pub/share/sensor_pub/package.xml

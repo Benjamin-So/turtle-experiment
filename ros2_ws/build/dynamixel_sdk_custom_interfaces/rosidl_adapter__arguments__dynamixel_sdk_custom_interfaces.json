@@ -1,0 +1,7 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_custom_interfaces:msg/SetPosition.msg",
+    "/home/turtle/turtle-experiment/ros2_ws/src/dynamixel_sdk_custom_interfaces:srv/GetPosition.srv"
+  ]
+}

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rft_interfaces/srv/RftOperationRequest.srv
+// generated code does not contain a copyright notice
+
+
+module rft_interfaces {
+  module srv {
+    struct RftOperationRequest_Request {
+      uint8 op_type;
+
+      uint8 param1;
+
+      uint8 param2;
+
+      uint8 param3;
+    };
+    struct RftOperationRequest_Response {
+      uint8 result;
+    };
+  };
+};

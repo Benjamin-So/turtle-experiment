@@ -1,0 +1,64 @@
+[0.168s] Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/rft_com_library -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library
+[0.213s] -- The C compiler identification is GNU 11.4.0
+[0.267s] -- The CXX compiler identification is GNU 11.4.0
+[0.274s] -- Detecting C compiler ABI info
+[0.331s] -- Detecting C compiler ABI info - done
+[0.342s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.345s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.423s] -- Detecting CXX compile features
+[0.424s] -- Detecting CXX compile features - done
+[0.426s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.676s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.748s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.748s] -- Configured cppcheck include dirs: /home/turtle/turtle-experiment/ros2_ws/src/rft_com_library/include
+[0.748s] -- Configured cppcheck exclude dirs and/or files: 
+[0.749s] -- Added test 'lint_cmake' to check CMake code style
+[0.750s] -- Added test 'uncrustify' to check C / C++ code style
+[0.750s] -- Configured uncrustify additional arguments: 
+[0.750s] -- Added test 'xmllint' to check XML markup files
+[0.752s] -- Configuring done
+[0.756s] -- Generating done
+[0.756s] -- Build files have been written to: /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library
+[0.761s] Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/turtle/turtle-experiment/ros2_ws/src/rft_com_library -DCMAKE_INSTALL_PREFIX=/home/turtle/turtle-experiment/ros2_ws/install/rft_com_library
+[0.763s] Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library -- -j8 -l8
+[0.820s] [ 66%] [32mBuilding CXX object CMakeFiles/rft_com_library.dir/src/RFT_COM.cpp.o[0m
+[0.820s] [ 66%] [32mBuilding CXX object CMakeFiles/rft_com_library.dir/src/RFT_IF_PACKET_Rev1.2.cpp.o[0m
+[0.950s] [01m[K/home/turtle/turtle-experiment/ros2_ws/src/rft_com_library/src/RFT_COM.cpp:[m[K In member function ‘[01m[Kbool CRT_RFT_UART::readWorker()[m[K’:
+[0.950s] [01m[K/home/turtle/turtle-experiment/ros2_ws/src/rft_com_library/src/RFT_COM.cpp:229:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[0.950s]   229 | [01;35m[K}[m[K
+[0.950s]       | [01;35m[K^[m[K
+[1.076s] [100%] [32m[1mLinking CXX static library librft_com_library.a[0m
+[1.127s] [100%] Built target rft_com_library
+[1.144s] Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library -- -j8 -l8
+[1.196s] Invoking command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library
+[1.213s] -- Install configuration: ""
+[1.214s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/environment/library_path.sh
+[1.214s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/environment/library_path.dsv
+[1.214s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/include/rft_com_library
+[1.214s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/include/rft_com_library/RFT_IF_PACKET_Rev1.2.h
+[1.214s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/include/rft_com_library/RFT_COM.h
+[1.214s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/lib/librft_com_library.a
+[1.214s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/ament_index/resource_index/package_run_dependencies/rft_com_library
+[1.214s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/ament_index/resource_index/parent_prefix_path/rft_com_library
+[1.215s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/environment/ament_prefix_path.sh
+[1.215s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/environment/ament_prefix_path.dsv
+[1.215s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/environment/path.sh
+[1.215s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/environment/path.dsv
+[1.215s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/local_setup.bash
+[1.215s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/local_setup.sh
+[1.215s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/local_setup.zsh
+[1.215s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/local_setup.dsv
+[1.215s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.dsv
+[1.216s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/ament_index/resource_index/packages/rft_com_library
+[1.216s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/cmake/rft_com_libraryExport.cmake
+[1.216s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/cmake/rft_com_libraryExport-noconfig.cmake
+[1.216s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/cmake/ament_cmake_export_targets-extras.cmake
+[1.216s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/cmake/rft_com_libraryConfig.cmake
+[1.216s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/cmake/rft_com_libraryConfig-version.cmake
+[1.216s] -- Installing: /home/turtle/turtle-experiment/ros2_ws/install/rft_com_library/share/rft_com_library/package.xml
+[1.228s] Invoked command in '/home/turtle/turtle-experiment/ros2_ws/build/rft_com_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/turtle/turtle-experiment/ros2_ws/build/rft_com_library
