@@ -1,6 +1,10 @@
 # turtle-experiment
 Undergraduate Research files for robotic-turtle experiments in MIT's Distributed Robotics Laboratory. 
-I wrote python and c++ code to interface 6-axis Robotous Force/Torque Sensor and Dynamixel Actuated turtle flipper. The c++ code for the force torque sensor was updated to ROS2.
+While working on a project in the Distributed Robotics Laboratory at MIT’s Computer Science & Artificial Intelligence Laboratory (CSAIL), I was tasked with developing ROS 2 code to simultaneously collect data from a ROBOTous 6-axis force-torque sensor and 3 Dynamixel motors. The challenge stemmed from the fact that the existing demo code for the sensor was written in C++ for ROS 1 Kinetic, but the project required using ROS 2. Collecting data from these hardware components would enable our team to perform experiments investigating how different materials affect the control dynamics of a robotic sea turtle flipper.
+
+I had to thoroughly understand how USB communication packets were used to transmit commands, set parameters, and read responses between the force-torque sensor and the Linux OS. Additionally, I had to adapt this for ROS 2’s node structure, which involved converting key parts of the code from C++ to Python and ensuring smooth communication between the hardware and software layers.
+
+A major hurdle was integrating the sensor’s C++ code with the motors’ Python API in a ROS 2 environment, which required managing data synchronization across different languages and communication protocols. Through extensive debugging and modification of the node structures, I successfully integrated the inputs and outputs in a stable and efficient manner, allowing real-time data collection from both the sensor and motors.
 
 I no longer have access to the Force/Torque sensor or robotic flipper, so these instructions are from my notebook.
 
